@@ -65,3 +65,21 @@ button {
     border-radius: 8px;
     text-align: center;
 }
+/*style the first main section*/
+.main1title {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+}
+.image {
+    list-style: none;
+    padding: 30px;
+    border-style: groove;
+    border-color: #3882f6;
+    border-radius: 12px;
+}
+.subtextimages{
+    font-size: 18px;
+    color: #1f2937;
+    list-style: none;
+}
