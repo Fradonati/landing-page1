@@ -47,6 +47,7 @@ li {
 .headerplaceholder {
     padding: 40px;
     background-color: #e5e7eb;
+    border-radius: 30px;
 }
 .container {
     display: flex;
@@ -62,7 +63,7 @@ button {
     padding: 12px;
     color: #e5e7eb;
     font-weight: 700;
-    border-radius: 8px;
+    border-radius: 50%; 
     text-align: center;
 }
 /*style the first main section*/
@@ -76,7 +77,8 @@ button {
     padding: 30px;
     border-style: groove;
     border-color: #3882f6;
-    border-radius: 12px;
+    border-radius: 30px;
+    text-align: center;
 }
 .subtextimages{
     font-size: 18px;
