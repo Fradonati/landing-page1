@@ -101,3 +101,20 @@ button {
     flex-direction: column;
     background-color: #e5e7eb;
 }
+.inspiringquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-self: center;
+}
+.cit {
+    align-self: flex-end;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+}
