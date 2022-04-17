@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* color, weight,size for the header and main header flexbox */
 #header {
@@ -125,13 +126,15 @@ button {
     flex: 0 0 0;
     height: 128px;
     margin: 50px;
+    justify-content: space-between;
 }
 .main3sec {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-left: 20px;
     margin-right: 20px;
+    justify-content: center;
+    align-items: flex-start;
 }
 .lastbutton {
     height: 42px;
@@ -139,4 +142,16 @@ button {
     align-self: center;
     justify-self: flex-end;
     margin: 20px;
+}
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 20px;
 }
